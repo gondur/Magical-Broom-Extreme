@@ -1,0 +1,36 @@
+Åú ReleaseSprite  / ID [0x003F94E0]
+Åú ReleaseSprite  / ID [0x003F9D20]
+Åú ReleaseSprite  / ID [0x003FA560]
+Åú ReleaseSprite  / ID [0x003FADA0]
+Åú ReleaseSprite  / ID [0x003FB5E0]
+Åú ReleaseTexture / ID [0x003F24E8]
+
+============================================== Destroy DirectInput
+  Å° Release Keyboard Device
+  Å° Release DirectInput Object
+
+============================================== Destroy DirectSound
+Åú ReleaseSound / ID [0x0CC32F28]
+  Å° Release PrimarySoundBuffer
+  Å° Release DirectSound Object
+
+============================================== Destroy Sprite
+Åú ReleaseSprite  / ID [0x003FD6E0]
+Åú ReleaseSprite  / ID [0x003FCEA0]
+Åú ReleaseSprite  / ID [0x003FC660]
+Åú ReleaseSprite  / ID [0x003FBE20]
+Åú ReleaseTexture / ID [0x003F2478]
+
+============================================== Destroy Texture
+
+============================================== Destroy Surface
+
+============================================== Destroy Effect
+
+============================================== Destroy Font
+
+============================================== Destroy DirectX Graphics
+  Å° Release BackBuffer
+  Å° Release Direct3D Device
+  Å° Release Direct3D Object
+  Å° Release DynamicLinkLibrary

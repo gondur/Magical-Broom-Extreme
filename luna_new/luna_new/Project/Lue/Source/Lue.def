@@ -1,0 +1,170 @@
+EXPORTS
+	LueMath_Sin
+	LueMath_Cos
+	LueMath_ATan2
+
+	LueVector2D_Set
+	LueVector2D_Add
+	LueVector2D_Sub
+	LueVector2D_LengthSq
+	LueVector2D_Length
+	LueVector2D_Normalize
+	LueVector2D_DotProduct
+	LueVector2D_CrossProduct
+	LueVector2D_Reflect
+
+	LueVector3D_Set
+	LueVector3D_Add
+	LueVector3D_Sub
+	LueVector3D_LengthSq
+	LueVector3D_Length
+	LueVector3D_DotProduct
+	LueVector3D_Normalize
+	LueVector3D_CrossProduct
+	LueVector3D_Reflect
+	LueVector3D_TransformNormal
+	LueVector3D_TransformCoord
+	LueVector3D_TransformProjection
+	LueVector3D_RotationX
+	LueVector3D_RotationY
+	LueVector3D_RotationZ
+	LueVector3D_RotationAxis
+
+	LueVector4D_Set
+	LueVector4D_Add
+	LueVector4D_Sub
+	LueVector4D_LengthSq
+	LueVector4D_Length
+	LueVector4D_Normalize
+	LueVector4D_DotProduct
+	LueVector4D_CrossProduct
+	LueVector4D_Reflect
+	LueVector4D_TransformNormal
+	LueVector4D_TransformCoord
+	LueVector4D_TransformProjection
+	LueVector4D_RotationX
+	LueVector4D_RotationY
+	LueVector4D_RotationZ
+	LueVector4D_RotationAxis
+
+	LueMatrix_Identity
+	LueMatrix_Transpose
+	LueMatrix_Inverse
+	LueMatrix_Multiply
+	LueMatrix_RotationX
+	LueMatrix_RotationY
+	LueMatrix_RotationZ
+	LueMatrix_RotationZXY
+	LueMatrix_RotationAxis
+	LueMatrix_Scaling
+	LueMatrix_Translation
+	LueMatrix_Perspective
+	LueMatrix_Ortho
+	LueMatrix_LookAt
+
+	Lue_Initialize
+	Lue_Finalize
+	Lue_Run
+	Lue_GetVersionString
+	Lue_GetVersionNumber
+	Lue_GetTime
+
+	LueSound_CreateFromFile
+	LueSound_Release
+	LueSound_Play
+	LueSound_Loop
+	LueSound_Stop
+	LueSound_Pause
+	LueSound_SetVolume
+	LueSound_SetPan
+	LueSound_IsPlay
+
+	LueFile_Load
+	LueFile_FileOpen
+	LueFile_FileClose
+	LueFile_FileGetSize
+	LueFile_FileGetPosition
+	LueFile_FileRead
+	LueFile_FileSeek
+	LueFile_SetCurrentDirectory
+	LueFile_SetLoadPath
+	LueFile_Release
+
+	LueInput_GetKeyData
+	LueInput_GetMouseData
+	LueInput_GetJoystickData
+	LueInput_GetKeyBuffer
+	LueInput_ClearKeyBuffer
+
+	LueRender_SceneStart
+	LueRender_SceneExit
+	LueRender_Printf
+	LueRender_ClsPrintf
+	LueRender_SetDrawMode
+	LueRender_SetTexture
+	LueRender_DrawSingleTexture
+	LueRender_DrawGrayscale
+	LueRender_DrawUniversalTransition
+	LueRender_DrawBlur9Box
+	LueRender_DrawBlur16Box
+	LueRender_DrawBlur64Box
+
+	LueTexture_SetConfig
+	LueTexture_Release
+	LueTexture_Create
+	LueTexture_CreateFromFile
+	LueTexture_CreateFromMemory
+	LueTexture_CreateRenderTarget
+
+	LueSurface_Release
+
+	LuePointPrimitive2D_Release
+	LuePointPrimitive2D_Create
+	LuePointPrimitive2D_Rendering
+	LuePointPrimitive2D_Begin
+	LuePointPrimitive2D_End
+	LuePointPrimitive2D_Push
+
+	LueLinePrimitive2D_Release
+	LueLinePrimitive2D_Create
+	LueLinePrimitive2D_Rendering
+	LueLinePrimitive2D_Begin
+	LueLinePrimitive2D_End
+	LueLinePrimitive2D_Push
+
+	LuePrimitive2D_Release
+	LuePrimitive2D_Create
+	LuePrimitive2D_Rendering
+	LuePrimitive2D_Begin
+	LuePrimitive2D_End
+	LuePrimitive2D_Push
+	LuePrimitive2D_Square
+	LuePrimitive2D_SquareRotate
+	LuePrimitive2D_Polygon
+	LuePrimitive2D_PolygonRotate
+	LuePrimitive2D_Ring
+	LuePrimitive2D_RingRotate
+
+	LueSprite2D_Release
+	LueSprite2D_Create
+	LueSprite2D_Rendering
+	LueSprite2D_Begin
+	LueSprite2D_End
+	LueSprite2D_DrawSquare
+	LueSprite2D_DrawSquareRotate
+	LueSprite2D_DrawList
+	LueSprite2D_CircleFade
+	LueSprite2D_CircleRoundFade
+
+	LueFontSprite2D_Release
+	LueFontSprite2D_Create
+	LueFontSprite2D_CreateFromFile
+	LueFontSprite2D_Begin
+	LueFontSprite2D_End
+	LueFontSprite2D_Rendering
+	LueFontSprite2D_DrawString
+	LueFontSprite2D_DrawStringP
+	LueFontSprite2D_DrawChara
+	LueFontSprite2D_DrawCharaRotate
+	LueFontSprite2D_GetStringLastPos
+	LueFontSprite2D_GetStringLastPosP

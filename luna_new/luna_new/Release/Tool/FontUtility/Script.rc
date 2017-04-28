@@ -1,0 +1,150 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOGEX 0, 0, 238, 305
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "フォントユーティリティ"
+FONT 9, "ＭＳ ゴシック", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "作成",ID_CREATE,108,285,54,14
+    EDITTEXT        IDC_EDIT_FILE_TEXT,13,17,177,14,ES_LOWERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "参照",IDC_FILE_SELECT_TEXT,195,17,30,14
+    LTEXT           "コンバートファイルパス",IDC_STATIC,17,7,214,8
+    GROUPBOX        "フォント情報",IDC_STATIC,7,64,224,143
+    CONTROL         "エッジ",IDC_CHECK_EDGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,130,152,38,10
+    CONTROL         "押し出し",IDC_CHECK_BEVEL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,152,48,10
+    LTEXT           "横幅",IDC_STATIC,17,222,18,8
+    LTEXT           "縦幅",IDC_STATIC,17,250,18,8
+    GROUPBOX        "テクスチャ情報",IDC_STATIC,7,209,147,70,BS_LEFT
+    GROUPBOX        "特殊効果",IDC_STATIC,16,104,208,98,BS_LEFT
+    EDITTEXT        IDC_EDIT_FONTSIZE,120,85,44,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "サイズ",IDC_STATIC,121,75,32,8
+    COMBOBOX        IDC_COMBO_FONTFACE,15,86,96,166,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "書体",IDC_STATIC,16,76,17,8
+    EDITTEXT        IDC_EDIT_EDGESIZE,171,166,45,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "サイズ",IDC_STATIC,143,168,27,8
+    LTEXT           "方向",IDC_STATIC,34,168,18,8
+    COMBOBOX        IDC_COMBO_BEVELDIR,71,166,48,59,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "サイズ",IDC_STATIC,34,184,27,8
+    EDITTEXT        IDC_EDIT_BEVELSIZE,71,182,48,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "太字",IDC_CHECK_BOLD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,129,114,30,10
+    CONTROL         "",IDC_PICTURE,"Static",SS_GRAYFRAME,173,222,50,48
+    GROUPBOX        "プレビュー",IDC_STATIC,165,210,66,88
+    PUSHBUTTON      "更新",IDC_PREVIEW,173,275,50,14
+    EDITTEXT        IDC_EDIT_DATANAME,14,45,176,14,ES_AUTOHSCROLL
+    LTEXT           "出力データ名",IDC_STATIC,17,36,214,8
+    PUSHBUTTON      "色",IDC_COLOR_BEVEL,71,151,47,12
+    PUSHBUTTON      "色",IDC_COLOR_EDGE,171,151,45,12
+    EDITTEXT        IDC_EDIT_SAMPLING,81,114,39,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "サンプリング数",IDC_STATIC,21,116,59,8
+    CONTROL         "斜体",IDC_CHECK_ITALIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,114,30,10
+    PUSHBUTTON      "色",IDC_COLOR_FONT,171,86,45,13
+    LTEXT           "色",IDC_STATIC,172,75,32,8
+    PUSHBUTTON      "バッチ保存",ID_SAVE_BATCH,7,285,49,14
+    COMBOBOX        IDC_COMBO_TEX_EXT,85,233,58,45,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "フォーマット",IDC_STATIC,86,222,49,8
+    COMBOBOX        IDC_COMBO_TEX_W,15,232,57,47,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TEX_H,16,260,57,48,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "ピッチ固定",IDC_CHECK_FIXPITCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,129,131,57,12
+    PUSHBUTTON      "バッチ読込",ID_LOAD_BATCH,57,285,50,14
+    GROUPBOX        "",IDC_STATIC,18,143,106,54
+    GROUPBOX        "",IDC_STATIC,126,143,95,54
+    LTEXT           "サイズ倍率",IDC_STATIC,21,133,42,8
+    EDITTEXT        IDC_EDIT_ASPECT_X,64,130,21,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ASPECT_Y,99,130,21,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "×",IDC_STATIC,88,134,8,8
+END
+
+IDD_DIALOG_PROGRESS DIALOGEX 0, 0, 187, 17
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "フォント生成中"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",0x1,0,0,186,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    "IDD_DIALOG_MAIN", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,1 @@
+FontUtility string.txt /out,"Font" /format,2 /width,2 /height,2 /sample,8 /aspect,1.0,1.0 /face,"ÇlÇr ÉSÉVÉbÉN" /size,26 /color,255,255,255 /edge,1,113,106,172 /bevel,1,7,179,64,67 /bold 
